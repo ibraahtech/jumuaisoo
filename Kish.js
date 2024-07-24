@@ -456,7 +456,7 @@ return;
 
 	    //total features by xeon sir
 const mariafeature = () =>{
-            var mytext = fs.readFileSync("./Heart.js").toString()
+            var mytext = fs.readFileSync("./Kish.js").toString()
             var numUpper = (mytext.match(/case '/g) || []).length
             return numUpper
 }
@@ -468,7 +468,7 @@ const mariafeature = () =>{
     [
         'https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png', // Image URL
         '', // Title
-        `MARIA YOUTUBE CHANNEL `, // Body message
+        `SLOTY YOUTUBE CHANNEL `, // Body message
         botname, // Footer message
         'Visit', // Button display text
         'https://youtube.com/@maria-md', // Command (URL in this case)
